@@ -1,0 +1,23 @@
+sequencia git
+
+git init
+git status
+git add .
+git commit -m ""
+git push
+
+========================
+Entre na pasta problemática:
+
+cd "Heranca e Poliformismo/"
+
+==============================
+veja se existe um .git dentro dela:
+ls -a
+===================================
+Remova esse .git apenas da subpasta (isso não apaga seus arquivos, só remove a configuração de repositório separado):
+
+rm -rf .git
+========================================
+Volte para a raiz do repositório principal:
+cd ..
